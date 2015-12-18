@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class PP2_6 {
+
+	public static void main(String[] args) {
+		// write an application that converts miles to kilometers 
+		Scanner scan=new Scanner(System.in);
+		System.out.println("please enter how many miles?");
+		float mile=scan.nextFloat();
+		System.out.println("the kilometer is "+mile*1.60935);
+	}
+
+}
