@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class PP2_4 {
+
+	public static void main(String[] args) {
+		//Write an application that reads two floating point numbers and prints their sum,different,and product.
+		Scanner scan=new Scanner (System.in);
+		float one=scan.nextFloat();
+		float two=scan.nextFloat();
+		System.out.println("two numbers sum is "+ (one+two));
+		System.out.println("two numbers different is "+ (one-two));
+		System.out.println("two numbers product is " +(one*two));
+
+	}
+
+}
